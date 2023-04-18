@@ -17,7 +17,7 @@ import com.satria.ecommerce.entity.Pengguna;
 import com.satria.ecommerce.service.PenggunaService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("//api")
 @PreAuthorize("isAuthenticated()")
 public class PenggunaController {
 

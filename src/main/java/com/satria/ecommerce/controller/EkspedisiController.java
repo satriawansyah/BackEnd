@@ -17,7 +17,7 @@ import com.satria.ecommerce.entity.Ekspedisi;
 import com.satria.ecommerce.service.EkspedisiService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("//api")
 @PreAuthorize("isAuthenticated()")
 public class EkspedisiController {
 

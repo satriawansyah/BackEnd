@@ -17,7 +17,7 @@ import com.satria.ecommerce.entity.Kategori;
 import com.satria.ecommerce.service.KategoriService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("//api")
 @PreAuthorize("isAuthenticated()")
 public class KategoriController {
 

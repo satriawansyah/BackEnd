@@ -22,7 +22,7 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("//api")
 @PreAuthorize("isAuthenticated()")
 public class KeranjangController {
 

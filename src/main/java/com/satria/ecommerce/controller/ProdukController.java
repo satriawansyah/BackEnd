@@ -17,7 +17,7 @@ import com.satria.ecommerce.entity.Produk;
 import com.satria.ecommerce.service.ProdukService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("//api")
 @PreAuthorize("isAuthenticated()")
 public class ProdukController {
 

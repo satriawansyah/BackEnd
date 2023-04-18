@@ -18,7 +18,7 @@ import com.satria.ecommerce.entity.Resi;
 import com.satria.ecommerce.service.ResiService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("//api")
 @PreAuthorize("isAuthenticated()")
 public class ResiController {
 

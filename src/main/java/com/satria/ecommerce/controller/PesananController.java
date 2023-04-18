@@ -24,7 +24,7 @@ import com.satria.ecommerce.security.service.UserDetailsImpl;
 import com.satria.ecommerce.service.PesananService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("//api")
 @PreAuthorize("isAuthenticated()")
 public class PesananController {
 

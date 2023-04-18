@@ -23,7 +23,7 @@ import com.satria.ecommerce.model.UploadFileResponse;
 import com.satria.ecommerce.service.FileStorageService;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("//api")
 @PreAuthorize("isAuthenticated()")
 public class FileController {
 
