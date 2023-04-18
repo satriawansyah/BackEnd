@@ -25,7 +25,7 @@ import com.satria.ecommerce.security.service.UserDetailsServiceImpl;
 import com.satria.ecommerce.service.PenggunaService;
 
 @RestController
-@RequestMapping("/auth")
+@RequestMapping("//auth")
 public class AuthController {
 
         @Autowired
