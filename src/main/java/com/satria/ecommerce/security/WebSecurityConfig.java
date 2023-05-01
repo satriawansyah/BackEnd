@@ -59,7 +59,7 @@ public class WebSecurityConfig {
     public CorsFilter corsFilter() {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         CorsConfiguration config = new CorsConfiguration();
-        config.addAllowedOrigin("http://localhost:3000");
+        config.addAllowedOrigin("https://e-commerce-kishiuki.vercel.app");
         config.setAllowCredentials(true);
         config.addAllowedHeader("*");
         config.addAllowedMethod("OPTIONS");
